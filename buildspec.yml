@@ -13,7 +13,7 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv target/bootdocker.jar bootdocker.jar
+    - mv target/docker-spring-demo1.jar docker-spring-demo1.jar
 artifacts:
   files:
   - bootdocker.jar
